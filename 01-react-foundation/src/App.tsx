@@ -1,7 +1,6 @@
 // import { useState } from 'react';
-import { LoginPage } from './components';
-import /*BasicTypes,*/ /*BasicFunctions*/ /*ObjectLiterals*/
-'./typescript';
+import { /*LoginPage,*/ UsersPage } from './components';
+// import /*BasicTypes,*/ /*BasicFunctions*/ /*ObjectLiterals*/'./typescript';
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -14,7 +13,8 @@ function App() {
       {/* <BasicFunctions /> */}
       {/* <Counter /> */}
       {/*<CounterWithHook />*/}
-      <LoginPage />
+      {/*<LoginPage />*/}
+      <UsersPage />
     </main>
   );
 }
