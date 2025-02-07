@@ -1,6 +1,7 @@
 import { useUsers } from '../hooks/useUsers';
 import type { User } from '../interfaces';
-import { UserRow } from './userRow';
+import { UserRow } from './UserRow';
+
 
 export const UsersPage = () => {
   const { users, nextPage, prevPage } = useUsers();

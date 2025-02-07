@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import { /*LoginPage,*/ UsersPage } from './components';
+import { /*LoginPage,*/ FormsPage, /*UsersPage*/ } from './components';
 // import /*BasicTypes,*/ /*BasicFunctions*/ /*ObjectLiterals*/'./typescript';
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       {/* <Counter /> */}
       {/*<CounterWithHook />*/}
       {/*<LoginPage />*/}
-      <UsersPage />
+      {/*<UsersPage />*/}
+      <FormsPage />
     </main>
   );
 }
